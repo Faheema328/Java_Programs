@@ -1,10 +1,12 @@
-import java.util.*;
 //Advance Patterns
-public class Advance {
+import java.util.*;
+
+
+//1.Butterfly Pattern
+    /* public class Advance {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
-        //1.Butterfly Pattern
-        /*for(int i=1;i<=4;i++){//1st Half
+        for(int i=1;i<=4;i++){//1st Half
             for(int j=1;j<=i;j++){//1st Part
                 System.out.print("*");
             }
@@ -28,9 +30,15 @@ public class Advance {
                 System.out.print("*");
             }
             System.out.println();
-        }*/
-    //2.Solid Rhombus
-    /* for(int i=1;i<=5;i++){
+        }
+    }
+} */
+    
+
+//2.Solid Rhombus
+    /* public class Advance{
+        public static void main(String[] args) {
+    for(int i=1;i<=5;i++){
         for(int j=1;j<=5-i;j++){
             System.out.print(" ");
         }
@@ -38,9 +46,15 @@ public class Advance {
             System.out.print("*");
         }
         System.out.println();
-    } */
-        //3.Number Pyramid
-        /* for(int i=1;i<=5;i++){
+    }
+}
+} */
+        
+
+//3.Number Pyramid
+    /* public class Advance{
+    public static void main(String[] args){
+        for(int i=1;i<=5;i++){
             for(int j=1;j<=5-i;j++){//Spaces
                 System.out.print(" ");
             }
@@ -48,9 +62,15 @@ public class Advance {
                 System.out.print(i+" ");
             }
             System.out.println();
-        }  */
-    //4.Palindrome Pattern
-    /* for(int i=1;i<=5;i++){
+        }
+}
+} */
+    
+
+//4.Palindrome Pattern
+    /* public class Advance{
+    public static void main(String[] args){
+    for(int i=1;i<=5;i++){
         for(int j=1;j<=5-i;j++){
             System.out.print(" ");
         }
@@ -61,9 +81,15 @@ public class Advance {
             System.out.print(j);
         }
         System.out.println();
-    } */
-        //5.Diamond Pattern
-        /* for(int i=1;i<=4;i++){//1st Half
+    } 
+}
+} */
+        
+
+//5.Diamond Pattern
+    /* public class Advance{
+    public static void main(String[] args){
+        for(int i=1;i<=4;i++){//1st Half
             for(int j=1;j<=4-i;j++){
                 System.out.print(" ");
             }
@@ -86,9 +112,15 @@ public class Advance {
                 System.out.print("*");
             }
             System.out.println();
-        } */
-    //6.Pascals Triangle
-    /* for(int i=0;i<5;i++){//i=0--->Fixed
+        } 
+    }
+} */
+
+
+//6.Pascals Triangle
+    /* public class Advance{
+    public static void main(String[] args){
+    for(int i=0;i<5;i++){//i=0--->Fixed
         for(int j=1;j<=5-i;j++){//To print spaces in L.H.S
             System.out.print(" ");
         }
@@ -98,6 +130,6 @@ public class Advance {
             num=num*(i-j)/(j+1);
         }
         System.out.println();
-    } */
+    }
 }
-}
+} */
